@@ -22,7 +22,6 @@ function HeroSection() {
     }
     return(
         <div className='hero-container' >
-            {GetImage()}
             <h1>SEAN R KELMAN</h1>
             <p>Software Engineer</p>
         
