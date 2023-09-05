@@ -1,0 +1,14 @@
+.document{
+    margin: 4rem;
+    background: #fff;
+}
+.document-container{
+    align-items: center;
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+embed{
+    height: 1070px;
+}
