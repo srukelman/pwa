@@ -1,8 +1,7 @@
 .projects{
     padding: 4rem;
     background: #fff;
-    display:flex;
-    flex-flow: column
+    display:inline-block;
 }
 
 h1{
@@ -10,8 +9,7 @@ h1{
 }
 
 .projects__container{
-    display: flex;
-    flex-flow: column;
+    display: inline;
     align-items: center;
     max-width: 1120px;
     width: 90%;
@@ -56,8 +54,19 @@ h1{
     position: relative;
     width: 40%;
     overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    object-fit:cover
 }
-
+.project-item-info{
+    padding: 20px 30px 30px;
+    width:60%
+  }
+  .project-item-text{
+    color: #252e48;
+    font-size: 18px;
+    line-height: 24px;
+}  
 .fade-img {
     animation-name: fade-img;
     animation-duration: 2s;
@@ -79,13 +88,17 @@ h1{
     .cards__item {
       margin-bottom: 2rem;
     }
-  }
-  .project-item-info{
-    padding: 20px 30px 30px;
-    width:60%
-  }
-  .project-item-text{
-    color: #252e48;
-    font-size: 18px;
-    line-height: 24px;
-  }
+  
+
+
+
+  .project-item-link{
+    flex-direction: column;
+}
+.project-item-img{
+    width: 100%;
+}
+.project-item-info{
+    width: 100%;
+}
+}
