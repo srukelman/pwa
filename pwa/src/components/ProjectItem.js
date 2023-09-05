@@ -9,9 +9,11 @@ function ProjectItem(props) {
             <Link className='project-item-link' to='{props.path}'>
                 <div className='project-item-info'>
                     <h5 className='project-item-text'>{props.text}</h5>
+                    <div className='project-text-spacer'></div>
                     <p className='project-item-subtext'>{props.subtext1}</p>
                     <p className='project-item-subtext'>{props.subtext2}</p>
                 </div>
+                <div className='project-item-spacer'></div>
                 <img src={props.src} alt="Sean Kelman Project" className='project-item-img' />
             </Link>
         </li>

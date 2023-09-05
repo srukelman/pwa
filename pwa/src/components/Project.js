@@ -9,6 +9,17 @@ function Project() {
             <div className='projects__wrapper'>
                 <ul className='projects__items'>
                     <ProjectItem 
+                        path="https://github.com/srukelman/micromouse"
+                        src="images/maze.png"
+                        text="MicroMouse"
+                        subtext1="This is a program I made because I got a bunch of MicroMouse competition videos recommended to me on YouTube along with the
+                        Veritasium video about the competition. I thought it was really cool and wanted to try it out for myself, but I didn't have a robot, so
+                        I created a GUI in Java to design a maze, the created a program in Java to solve the maze."
+                        subtext2="I built the GUI in Swing because I already had a lot of experience with Swing and I knew it would be easy and the GUI wasn't the main
+                        part of the project. Then I created a program to solve the maze using a breadth-first search algorithm. I also plan to implement a depth-first search,
+                        the use of the A* algorithm, and the use of a neural network to solve the maze. I also plan to create a program to generate a random maze."
+                    />
+                    <ProjectItem 
                         path="https://github.com/srukelman/stockOptionWebScraping"
                         src="images/stock-market-3.jpg"
                         text="Stock Option Web Scraping"
@@ -34,10 +45,36 @@ function Project() {
                         classificiation models, and I used TensorFlow to conduct a nonlinear regression on a scatterplot of the accuracy of each model at different training
                         set sizes. The digits came from the MNIST dataset."
                     />
-                    <ProjectItem />
-                    <ProjectItem />
-                    <ProjectItem />
-                    <ProjectItem />
+                    <ProjectItem 
+                        path="https://github.com/srukelman/HandicapTracker"
+                        src="images/golf.jpg"
+                        text="HandicapTracker"
+                        subtext1="This is a website for golfers to use to track their handicap. For those of you who don't golf, a handicap is a measurement that allows
+                        for a numerical comparison of the skill level of golfers based on their past scores. Using this website, golfers could enter their scores from
+                        rounds of golf and the website would calculate their handicap."
+                        subtext2="It uses HTML, CSS, and JavaScript for the front-end with PHP so that it can connect to a SQL database. I stopped paying for the domain
+                        name that the website was open on so you can't find it, but you can look through the code in the GitHub link above."
+                    />
+                    <ProjectItem
+                        path="https://github.com/Team-6220/2023"
+                        src="images/frc.jpg"
+                        text="FIRST Robotics Competition"
+                        subtext1="I was the team captain and lead programmer for the 2023 season and lead programmer for the 2022 season. My programming team and I write
+                        Java code to control the robot include both remotely operated and autonomously."
+                        subtext2="I was a part of my school's FRC Team for 2 years during my junior and senior years of high school. During my 1st year I was the programming
+                        lead for the team. I worked with a team of 2 others to develop Java code for our robot for the Rapid React competition. During the offseason leading
+                        in to my 2nd year with the team, I became the team captain. During the offseason, I also helped to educate new members in code to prepare them for the
+                        upcoming season. During my 2nd season with the team I was team captain so I helped lead all subteams, while still being the lead developer for robot code."
+                    />
+                    <ProjectItem
+                        path="https://github.com/srukelman/Minesweeper"
+                        src="images/minesweeper.png"
+                        text="Minesweeper"
+                        subtext1="This is a small minesweeper game I put together during high school. In the GitHub link above there is a .jar file, so you can download and play
+                        for yourself. I built this game in Java using Swing to make the GUI."
+                        subtext2="I'm planning to go back and improve the playability of the game, since sometimes it freezes or clicks on the wrong place(something to do with the
+                        MouseListener library i think). This was one of my first real OOP programs that I felt like was really an accomplishment, not just an assignment for a class."
+                    />
                 </ul>
             </div>
         </div>
