@@ -4,8 +4,7 @@ import './Projects.css'
 function Project() {
   return (
     <div className='projects'>
-        <h1>Check Out My Projects!</h1>
-        <h4>(Click on a project to go to its GitHub Repo)</h4>
+        <h4>Click on a project to go to its GitHub Repo</h4>
         <div className='projects__container'>
             <div className='projects__wrapper'>
                 <ul className='projects__items'>
@@ -15,7 +14,7 @@ function Project() {
                         text="MicroMouse"
                         subtext1="This is a program I made because I got a bunch of MicroMouse competition videos recommended to me on YouTube along with the
                         Veritasium video about the competition. I thought it was really cool and wanted to try it out for myself, but I didn't have a robot, so
-                        I created a GUI in Java to design a maze, the created a program in Java to solve the maze."
+                        I created a GUI in Java to design a maze, then created a program to solve the maze."
                         subtext2="I built the GUI in Swing because I already had a lot of experience with Swing and I knew it would be easy and the GUI wasn't the main
                         part of the project. Then I created a program to solve the maze using a breadth-first search algorithm. I also plan to implement a depth-first search,
                         the use of the A* algorithm, and the use of a neural network to solve the maze. I also plan to create a program to generate a random maze."
@@ -56,7 +55,7 @@ function Project() {
                         data was provided. For this part I used TensorFlow to conduct a nonlinear regression on a scatterplot of the accuracy of each model at
                         increments of 10 in the size of the training data."
                         subtext2="I built this program in Python using the scikit-learn and TensorFlow libraries. I used the scikit-learn library to train and test
-                        classificiation models, and I used TensorFlow to conduct a nonlinear regression on a scatterplot of the accuracy of each model at different training
+                        classification models, and I used TensorFlow to conduct a nonlinear regression on a scatterplot of the accuracy of each model at different training
                         set sizes. The digits came from the MNIST dataset."
                         tag1="Python" tag2="TensorFlow" tag3="AI/ML"
                     />

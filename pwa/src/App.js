@@ -17,6 +17,8 @@ function App() {
           <Route path='/projects' exact Component={Projects}/>
           <Route path='/about' exact Component={About}/>
           <Route path='/resume' exact Component={Resume}/>
+          <Route path='/Resume' exact Component={Resume}/>
+          <Route path='*' exact Component={Home}/>
         </Routes>
       </Router>  
     </>

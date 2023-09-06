@@ -7,7 +7,7 @@ function ProjectItem(props) {
   return (
     <>
         <li className='project-item'>
-            <Link className='project-item-link' to={props.path}>
+            <Link className='project-item-link' target="_blank" to={props.path}>
                 <div className='project-item-info'>
                     <h5 className='project-item-text'>{props.text}</h5>
                     <div className='project-text-spacer'></div>

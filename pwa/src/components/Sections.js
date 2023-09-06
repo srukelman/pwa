@@ -5,7 +5,6 @@ import './Section.css'
 function Sections() {
   return (
     <div className='sections'>
-      <h1>Learn More About Me!</h1>
       <div className='sections-container'>
         <div className='sections-wrapper'>
           <ul className='sections-items'>
