@@ -10,9 +10,9 @@ function Cards() {
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
                     <CardItem
-                    src = 'images/minesweeper.png'
-                    text = 'minesweeper'
-                    label = 'Minesweeper'
+                    src = 'images/maze.png'
+                    text = 'Maze Generator and Solver'
+                    label = 'Maze'
                     path='/projects'
                     />
                     <CardItem
@@ -22,9 +22,9 @@ function Cards() {
                     path='/projects'
                     />
                     <CardItem
-                    src = 'images/golf.jpg'
-                    text = 'HandicapTracker'
-                    label = 'HT'
+                    src = 'images/stock-market-3.jpg'
+                    text = 'Stock Option Analysis'
+                    label = 'Stocks'
                     path='/projects'
                     />
                 </ul>

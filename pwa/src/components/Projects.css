@@ -39,6 +39,8 @@ h4{
     padding: 1rem 0rem;
     min-height: fit-content;
     justify-content: center;
+    transition: all 500ms ease-in-out;
+    
 }
 .project-item-link{
     display: flex;
@@ -92,6 +94,10 @@ h4{
 .fade-img {
     animation-name: fade-img;
     animation-duration: 2s;
+  }
+  .project-item:hover {
+    transform: scale(1.1);
+    
   }
 
   @media only screen and (min-width: 1200px) {
