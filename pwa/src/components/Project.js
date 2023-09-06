@@ -5,6 +5,7 @@ function Project() {
   return (
     <div className='projects'>
         <h1>Check Out My Projects!</h1>
+        <h4>(Click on a project to go to its GitHub Repo)</h4>
         <div className='projects__container'>
             <div className='projects__wrapper'>
                 <ul className='projects__items'>
@@ -18,6 +19,16 @@ function Project() {
                         subtext2="I built the GUI in Swing because I already had a lot of experience with Swing and I knew it would be easy and the GUI wasn't the main
                         part of the project. Then I created a program to solve the maze using a breadth-first search algorithm. I also plan to implement a depth-first search,
                         the use of the A* algorithm, and the use of a neural network to solve the maze. I also plan to create a program to generate a random maze."
+                    />
+                    <ProjectItem 
+                        path="https://github.com/srukelman/pwa"
+                        src="images/websie.png"
+                        text="Portfolio Website"
+                        subtext1="This is a program I made to show off some of my skills and projects. I built this website using React.js. I also learned about Progressive Web Apps
+                        during this project and the I plan to turn this website into a Progressive Web App. During this project I learned more and practice creating with React.js."
+                        subtext2="I had originally built my portfolio in HTML and CSS with no JavaScript. It was very plain and not even responsive. I decided to rebuild it
+                        using React so I could make it look better and make it responsive. I also wanted to try to create a Progressive Web App, and I had researched and learned that
+                        creating a website in React would be a good starting point to create a PWA."
                     />
                     <ProjectItem 
                         path="https://github.com/srukelman/stockOptionWebScraping"
@@ -51,8 +62,9 @@ function Project() {
                         text="HandicapTracker"
                         subtext1="This is a website for golfers to use to track their handicap. For those of you who don't golf, a handicap is a measurement that allows
                         for a numerical comparison of the skill level of golfers based on their past scores. Using this website, golfers could enter their scores from
-                        rounds of golf and the website would calculate their handicap."
-                        subtext2="It uses HTML, CSS, and JavaScript for the front-end with PHP so that it can connect to a SQL database. I stopped paying for the domain
+                        rounds of golf and the website would calculate their handicap. This was a really useful tool for myself and my friends who were able to use this
+                        website for free rather than paying for a subscription to a similar website."
+                        subtext2="It uses HTML, CSS, and JavaScript for the front-end built on an AMP Stack with Apache, MySQL and PHP. I stopped paying for the domain
                         name that the website was open on so you can't find it, but you can look through the code in the GitHub link above."
                     />
                     <ProjectItem

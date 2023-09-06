@@ -14,7 +14,8 @@ function ProjectItem(props) {
                     <p className='project-item-subtext'>{props.subtext2}</p>
                 </div>
                 <div className='project-item-spacer'></div>
-                <img src={props.src} alt="Sean Kelman Project" className='project-item-img' />
+                <div className='project-item-img-wrapper'><img src={props.src} alt="Sean Kelman Project" className='project-item-img' /></div>
+                
             </Link>
         </li>
     </>

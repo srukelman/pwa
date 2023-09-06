@@ -7,6 +7,10 @@ h1{
     text-align: center;
     font-size: 1em;
 }
+h4{
+  text-align: center;
+  font-size: .5em;
+}
 
 .projects__container{
     align-items: center;
@@ -52,15 +56,24 @@ h1{
 .project-item-subtext{
   font-size: .35em;
     font-weight: lighter;
+    margin-bottom: .3em;
 }
 
 .project-item-img{
     position: relative;
-    width: 40%;
+    width: 100%;
     overflow: hidden;
     height: auto;
     object-fit: cover;
     align-self: center;
+    
+}
+.project-item-img-wrapper{
+  width: 40%;
+  background-color: #eee;
+  height: 100%;
+  display:flex;
+  justify-content: center;
 }
 .project-item-info{
     padding: 20px 30px 30px;
