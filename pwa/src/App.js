@@ -5,11 +5,13 @@ import Home from './components/pages/Home.js'
 import Projects from './components/pages/Projects';
 import About from './components/pages/About';
 import Resume from './components/pages/Resume';
+import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <>
       <Router>
         <Navbar />
+        <ScrollToTop />
         <Routes>
           <Route path='/' exact Component={Home}/>
           <Route path='/projects' exact Component={Projects}/>
