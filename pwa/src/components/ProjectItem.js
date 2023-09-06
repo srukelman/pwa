@@ -1,6 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import { Link } from 'react-router-dom'
+import Tags from './Tags'
 
 function ProjectItem(props) {
   return (
@@ -12,6 +13,7 @@ function ProjectItem(props) {
                     <div className='project-text-spacer'></div>
                     <p className='project-item-subtext'>{props.subtext1}</p>
                     <p className='project-item-subtext'>{props.subtext2}</p>
+                    <Tags text1 = {props.tag1} text2 = {props.tag2} text3 = {props.tag3}/>
                 </div>
                 <div className='project-item-spacer'></div>
                 <div className='project-item-img-wrapper'><img src={props.src} alt="Sean Kelman Project" className='project-item-img' /></div>

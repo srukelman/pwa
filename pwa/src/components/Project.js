@@ -19,6 +19,7 @@ function Project() {
                         subtext2="I built the GUI in Swing because I already had a lot of experience with Swing and I knew it would be easy and the GUI wasn't the main
                         part of the project. Then I created a program to solve the maze using a breadth-first search algorithm. I also plan to implement a depth-first search,
                         the use of the A* algorithm, and the use of a neural network to solve the maze. I also plan to create a program to generate a random maze."
+                        tag1="Java" tag2="AI/ML" tag3="Algorithms and Data Structures"
                     />
                     <ProjectItem 
                         path="https://github.com/srukelman/pwa"
@@ -29,6 +30,7 @@ function Project() {
                         subtext2="I had originally built my portfolio in HTML and CSS with no JavaScript. It was very plain and not even responsive. I decided to rebuild it
                         using React so I could make it look better and make it responsive. I also wanted to try to create a Progressive Web App, and I had researched and learned that
                         creating a website in React would be a good starting point to create a PWA."
+                        tag1="React.js" tag2="Web Development" tag3="PWA"
                     />
                     <ProjectItem 
                         path="https://github.com/srukelman/stockOptionWebScraping"
@@ -42,6 +44,7 @@ function Project() {
                         Google Chrome developer tools I found the IDs of the tags with the information I was looking for and created an instance of a PUT object
                         with all the relevant information. Then I created a list of PUT objects and sorted them by return on investment. Finally, I created a GUI
                         to display the most profitable options."
+                        tag1="Python" tag2="Algorithms and Data Structures" tag3="Webscraping"
                     />
                     <ProjectItem
                         path="https://github.com/srukelman/handwritten-digit-classification"
@@ -55,6 +58,7 @@ function Project() {
                         subtext2="I built this program in Python using the scikit-learn and TensorFlow libraries. I used the scikit-learn library to train and test
                         classificiation models, and I used TensorFlow to conduct a nonlinear regression on a scatterplot of the accuracy of each model at different training
                         set sizes. The digits came from the MNIST dataset."
+                        tag1="Python" tag2="TensorFlow" tag3="AI/ML"
                     />
                     <ProjectItem 
                         path="https://github.com/srukelman/HandicapTracker"
@@ -66,6 +70,7 @@ function Project() {
                         website for free rather than paying for a subscription to a similar website."
                         subtext2="It uses HTML, CSS, and JavaScript for the front-end built on an AMP Stack with Apache, MySQL and PHP. I stopped paying for the domain
                         name that the website was open on so you can't find it, but you can look through the code in the GitHub link above."
+                        tag1="PHP" tag2="SQL" tag3="Web Development"
                     />
                     <ProjectItem
                         path="https://github.com/Team-6220/2023"
@@ -77,6 +82,7 @@ function Project() {
                         lead for the team. I worked with a team of 2 others to develop Java code for our robot for the Rapid React competition. During the offseason leading
                         in to my 2nd year with the team, I became the team captain. During the offseason, I also helped to educate new members in code to prepare them for the
                         upcoming season. During my 2nd season with the team I was team captain so I helped lead all subteams, while still being the lead developer for robot code."
+                        tag1="Java" tag2="Python" tag3="Robotics"
                     />
                     <ProjectItem
                         path="https://github.com/srukelman/Minesweeper"
@@ -86,6 +92,7 @@ function Project() {
                         for yourself. I built this game in Java using Swing to make the GUI."
                         subtext2="I'm planning to go back and improve the playability of the game, since sometimes it freezes or clicks on the wrong place(something to do with the
                         MouseListener library i think). This was one of my first real OOP programs that I felt like was really an accomplishment, not just an assignment for a class."
+                        tag1="Java" tag2="Algorithms and Data Structures" tag3="GUI"
                     />
                 </ul>
             </div>
