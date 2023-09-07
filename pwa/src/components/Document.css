@@ -11,4 +11,19 @@
 
 embed{
     height: 1070px;
+    width:850px;
 }
+
+@media only screen and (max-width: 1070px) {
+    embed{
+        width: 100%;
+        height: auto;
+    }
+    .document-container{
+        max-width: 100%;
+    }
+    .document{
+        margin: 1rem;
+        background: #fff;
+    }
+  }

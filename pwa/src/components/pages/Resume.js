@@ -7,7 +7,7 @@ function Resume() {
     <>
     <Document />
     <Footer />
-  </>
+    </>
   )
 }
 

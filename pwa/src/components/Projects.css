@@ -36,7 +36,8 @@ h4{
     text-align: center;
     min-width: 90%;
     max-width: 100%;
-    padding: 1rem 0rem;
+    max-height: 450px;
+    padding: 0rem 0rem 4rem 0rem;
     min-height: fit-content;
     justify-content: center;
     transition: all 500ms ease-in-out;
@@ -64,16 +65,15 @@ h4{
 .project-item-img{
     position: relative;
     width: 100%;
-    overflow: hidden;
-    height: auto;
-    object-fit: cover;
+    max-height: 100%;
+    object-fit: contain;
     align-self: center;
     
 }
 .project-item-img-wrapper{
   width: 40%;
   background-color: #eee;
-  height: 100%;
+  height: auto;
   display:flex;
   justify-content: center;
 }
@@ -98,6 +98,12 @@ h4{
   .project-item:hover {
     transform: scale(1.1);
     
+    
+  }
+  .project-item-link:hover{
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .75);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   }
 
   @media only screen and (min-width: 1200px) {
@@ -113,18 +119,20 @@ h4{
   }
   
   @media only screen and (max-width: 1024px) {
-    .cards__item {
-      margin-bottom: 2rem;
-    }
-    .cards__item__link {
-      width: 90%;
-    }
+
+
   .project-item-link{
     flex-direction: column;
+    
 }
 .project-item-img{
-    width: 6em;
+    visibility:hidden;
+    max-width: 0px;
 
+}
+.project-item-img-wrapper{
+  max-width: 0px;
+  max-height:0px;
 }
 .projects__container{
     width: 90%;

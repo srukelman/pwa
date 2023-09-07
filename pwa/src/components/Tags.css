@@ -1,16 +1,14 @@
 .tag-item-wrapper{
     display: flex;
+    flex-flow: row wrap;
 }
 .tag-item-text{
     font-size: .3em;
     padding: .2em .3em;
 }
-.tag-item-title{
-    font-size: .3em;
-    padding: .2em .5em .2em 0em;
-}
 .tag-item-container{
     margin-right: .2em;
+    margin-top: .2em;
     border: .05em solid #242424;
     border-radius: .25em;
     display: flex;
