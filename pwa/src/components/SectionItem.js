@@ -11,8 +11,11 @@ function SectionItem(props) {
                 <div className='section-item-info'>
                     <h5 className='section-item-text'>{props.text}</h5>
                     <p className='section-item-subtext'>{props.subtext1}</p>
+                    <div className='section-text-spacer'></div>
                     <p className='section-item-subtext'>{props.subtext2}</p>
+                    <div className='section-text-spacer'></div>
                     <p className='section-item-subtext'>{props.subtext3}</p>
+                    <div className='section-text-spacer'></div>
                     <p className='section-item-subtext'>{props.subtext4}</p>
                 </div>
             </Link>

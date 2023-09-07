@@ -1,5 +1,5 @@
 .sections{
-    padding: 4rem;
+    padding: 2rem;
     background: #fff;
 }
 
@@ -11,7 +11,7 @@ h1{
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 1120px;
+    max-width: 1300px;
     width: 100%;
     margin: 0 auto;
 }
@@ -48,14 +48,16 @@ h1{
 }
 
 .section-item-subtext{
-  font-size: medium;
-  font-weight: lighter;
+  font: regular 400 italic;
+  font-size: 1.15em;
+  margin-bottom: 1em;
 }
 
 .section-item-img{
     position: relative;
     width: 50%;
     overflow: hidden;
+    object-fit: cover;
 }
 
 .fade-img {
@@ -72,6 +74,7 @@ h1{
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
+    padding-bottom: 1.5em;
   }
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
