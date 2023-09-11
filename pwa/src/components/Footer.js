@@ -13,7 +13,7 @@ function Footer() {
             <div className='social-media-wrap'>
                 <Button buttonStyle='btn--outline' buttonSize="btn--medium" path="https://github.com/srukelman" icon="fa fa-github"/>
                 <Button buttonStyle='btn--outline' buttonSize="btn--medium" path="mailto:seanrkelman@gmail.com" icon="fa fa-envelope-o"/>
-                <Button buttonStyle='btn--outline' buttonSize="btn--medium"path="https://www.linkedin.com/in/sean-kelman-633057211/" icon="fa fa-linkedin-square"/>
+                <Button buttonStyle='btn--outline' buttonSize="btn--medium"path="https://www.linkedin.com/in/sean-kelman-633057211/" icon="fa fa-linkedin"/>
             </div> 
         </section>
     </div>

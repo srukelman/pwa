@@ -17,6 +17,8 @@ function SectionItem(props) {
                     <p className='section-item-subtext'>{props.subtext3}</p>
                     <div className='section-text-spacer'></div>
                     <p className='section-item-subtext'>{props.subtext4}</p>
+                    <div className='section-text-spacer'></div>
+                    <p className='section-item-subtext'>{props.subtext5}</p>
                 </div>
             </Link>
         </li>
