@@ -25,7 +25,7 @@ function Project() {
                         src="images/websie.png"
                         text="Portfolio Website"
                         subtext1="This is the website you are currently viewing. I built this website using React.js, so I could learn more and practice my React.js skills. Using React also makes my website look better and more responsive. I also learned about Progressive Web Apps (PWA)
-                        during this project, I am in the process of turning this website into a PWA."
+                        during this project, and after completing the React Website, I converted it into a PWA."
                         tag1="React.js" tag2="Web Development" tag3="PWA"
                     />
                     <ProjectItem 
