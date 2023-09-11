@@ -23,7 +23,7 @@ function HeroSection() {
     return(
         <div className='hero-container' >
             <h1>SEAN R KELMAN</h1>
-            <p>Software Engineer</p>
+            <p>Computer Science @ UCI</p>
         
         </div>
     )

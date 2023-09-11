@@ -22,15 +22,15 @@ class PostRequest extends React.Component {
         this.getCurrentlyPlaying(data.access_token);
     }
 
-    getCurrentlyPlaying(access_token){
+    async getCurrentlyPlaying(access_token){
+        console.log(access_token);
         const requestOptions = {
             method: 'GET',
             headers: { 'Content-Type':'application/x-www-form-urlencoded', 'Authorization': 'Bearer ' + access_token}
         };
-        fetch('https://api.spotify.com/v1/me/player/currently-playing', requestOptions)
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .then(data => this.setState({ ref: data.item.external_urls.spotify }));
+        const response = await fetch('https://api.spotify.com/v1/me/player/currently-playing', requestOptions);
+        const data = await response.json();
+        console.log(data);
     }
     async componentDidMount(){
         await this.getAccessToken();
