@@ -1,6 +1,5 @@
 import React from 'react'
 import './Projects.css'
-import { Link } from 'react-router-dom'
 import Tags from './Tags'
 import ProjectButton from './ProjectButton'
 

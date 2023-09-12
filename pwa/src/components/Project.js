@@ -4,7 +4,6 @@ import './Projects.css'
 function Project() {
   return (
     <div className='projects'>
-        <h4>Click on a project to go to its GitHub Repo</h4>
         <div className='projects__container'>
             <div className='projects__wrapper'>
                 <ul className='projects__items'>
@@ -14,8 +13,8 @@ function Project() {
                         text="MicroMouse"
                         subtext1="I made this because I got really interested in MicroMouse. Since I don't have a robot or the materials to create a physical maze,
                         I wanted to simulate a MicroMouse. My maze solver uses a breadth-first search(BFS) because that is
-                        guaranteed to find the shortest path. I am currently implementing other algorithms to solve the maze better, such as depth-first search(DFS), A*,
-                        Djikstra's, and a neural network. I also plan to create a program to generate a random maze."
+                        guaranteed to find the shortest path. I have also implemented a depth-first search(DFs) and Djikstra's algorithm to solve the maze. I am
+                        currently implementing an A* solution and a neural network solution. I also plan to create a program to generate a random maze."
                         subtext2="I built the GUI in Java Swing. I built the maze solver in Java because I wanted to make sure that the data structures and algorithms practice I was getting in 
                         Python would translate and it did."
                         tag1="Java" tag2="AI/ML" tag3="Algorithms and Data Structures"
