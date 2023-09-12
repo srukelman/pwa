@@ -8,10 +8,26 @@
     width: 100%;
     margin: 0 auto;
 }
-
+.document-button-wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.document-button{
+    color:#fff;
+    background-color: #000;
+    padding:.75em;
+    border-radius: .5em;
+    font-size: 1em;;
+}
+.document-button-icon{
+    font-size: 1.25em;
+}
 embed{
-    height: 1132px;
-    width:850px;
+    height: 1070px;
+    width: 850px;
 }
 
 @media only screen and (max-width: 1070px) {
