@@ -1,0 +1,10 @@
+.project-link{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.project-button{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #000;
+}
