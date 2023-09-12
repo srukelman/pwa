@@ -8,7 +8,7 @@ function ProjectItem(props) {
   return (
     <>
         <li className='project-item'>
-            <Link className='project-item-link'>
+            <div className='project-item-link'>
                 <div className='project-item-info'>
                     <h5 className='project-item-text'>{props.text}</h5>
                     <div className='project-text-spacer'></div>
@@ -20,7 +20,7 @@ function ProjectItem(props) {
                 <div className='project-item-spacer'></div>
                 <div className='project-item-img-wrapper'><img src={props.src} alt="Sean Kelman Project" className='project-item-img' /></div>
                 
-            </Link>
+            </div>
         </li>
     </>
   )

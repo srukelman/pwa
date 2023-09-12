@@ -3,8 +3,26 @@
     color: #fff;
     
 }
+.project-button:hover{
+    background-color: #555;
+    transform: scale(1.1);
+}
 .project-button{
     display: flex;
     flex-flow: row nowrap;
+    align-items: center;
     background-color: #000;
+    width: fit-content;
+    border-radius: .25em;
+    margin-top: .5em;
+    transition: all 250ms ease-in-out;
+}
+.project-button-text{
+    font-size: .5em;
+    padding: .5em;
+}
+.fa {
+    font-size: .75em;
+    vertical-align: center;
+    padding-left: .25em;
 }
