@@ -6,6 +6,8 @@ import Projects from './components/pages/Projects';
 import About from './components/pages/About';
 import Resume from './components/pages/Resume';
 import ScrollToTop from './components/ScrollToTop';
+import Footer from './components/Footer';
+
 function App() {
   return (
     <>
@@ -20,6 +22,7 @@ function App() {
           <Route path='/Resume' exact Component={Resume}/>
           <Route path='*' exact Component={Home}/>
         </Routes>
+        <Footer />
       </Router>  
     </>
     

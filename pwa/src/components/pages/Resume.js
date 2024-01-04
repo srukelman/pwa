@@ -6,7 +6,6 @@ function Resume() {
   return (
     <>
     <Document />
-    <Footer />
     </>
   )
 }

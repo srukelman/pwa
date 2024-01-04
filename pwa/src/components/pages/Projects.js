@@ -5,7 +5,6 @@ function Projects() {
   return (
     <>
     <Project />
-    <Footer />
     </>
     
   )
