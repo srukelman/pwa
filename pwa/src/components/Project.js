@@ -1,12 +1,24 @@
 import React from 'react'
 import ProjectItem from './ProjectItem' 
 import './Projects.css'
+
 function Project() {
   return (
     <div className='projects'>
         <div className='projects__container'>
             <div className='projects__wrapper'>
                 <ul className='projects__items'>
+                    <ProjectItem 
+                        path="https://github.com/srukelman/calorie-tracker"
+                        src="images/cal-tracker.png"
+                        text="Calorie Tracker"
+                        subtext1="I built this calorie tracker for me to use to track my diet. I made this using React for the frontend, Express for the backend, and
+                        MSSQL for the database."
+                        subtext2="The tracker includes a breakdown of macronutrients and a graph of calories consumed over time. Users will be able to log in, see a table
+                        of their daily calorie intake, the foods they've eaten, and their progress towards their goals. All foods entered will be saved in a universal database,
+                        allowing them to be used by any other user."
+                        tag1="React" tag2="SQL" tag3="Full Stack Web Dev"
+                    />
                     <ProjectItem 
                         path="https://github.com/srukelman/micromouse"
                         src="images/maze.png"
@@ -15,8 +27,8 @@ function Project() {
                         I wanted to simulate a MicroMouse. My maze solver uses a breadth-first search(BFS) because that is
                         guaranteed to find the shortest path. I have also implemented a depth-first search(DFs) and Djikstra's algorithm to solve the maze. I am
                         currently implementing an A* solution and a neural network solution. I also plan to create a program to generate a random maze."
-                        subtext2="I built the GUI in Java Swing. I built the maze solver in Java because I wanted to make sure that the data structures and algorithms practice I was getting in 
-                        Python would translate and it did."
+                        subtext2="I built the GUI in Java Swing. I built the maze solver in Java because I wanted to make sure that the data structures and algorithms
+                        practice I was getting in Python would translate and it did."
                         tag1="Java" tag2="AI/ML" tag3="Algorithms and Data Structures"
                     />
                     <ProjectItem 
